@@ -1,5 +1,33 @@
 # miniatures-store-cohort-analysis
 
+Business Scenario
+
+This project analyzes the commercial operations of a specialized retail store selling die-cast scale models (classic cars, planes, ships, and motorcycles). In this niche, value is driven by collectors' loyalty. Understanding customer retention and long-term engagement is the core pillar of the business's sustainability.
+
+Open Source Data & Transparency
+
+The analysis utilizes a public, open-source dataset widely recognized in the Data Science community for its rich temporal variables. Using public data ensures full transparency in my calculation methodology and allows for total replicability by others interested in Cohort models.
+
+Strategic Analysis vs. Raw Reporting
+
+Beyond standard sales reports, this project transforms flat transaction logs into a Cohort Matrix. This allows us to dissect behavior based on acquisition timing and answer critical business questions:
+
+* At which quarter (Q) do we lose the most customers?
+
+* How does the Customer Lifetime Value (CLV) evolve over years of loyalty?
+
+* Which "Anchor Clients" are currently sustaining the revenue?
+
+Business Impact & Value
+
+By identifying that retention sits at 17.4% and new acquisition has stalled since Q3 2004, this analysis shifts from descriptive to prescriptive. It empowers management to:
+
+* Optimize Budget: Shift from general ads to high-precision re-engagement campaigns.
+
+* Protect Key Accounts: Prioritize top-tier distributors to ensure long-term stability.
+
+* Inventory Planning: Anticipate Q4 peaks (historically the strongest) to avoid stockouts of popular miniatures.
+
 ## Miniatures Store Data Cleaning & Prep (ETL) - SalesProject.ipynb
 
 The raw data from the miniatures store required normalization and structural changes to enable analysis. This script transforms raw transaction logs into a clean format ready for Cohort Analysis and Tableau Visualization.
